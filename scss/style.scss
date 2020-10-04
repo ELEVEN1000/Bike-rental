@@ -1,0 +1,28 @@
+@import "nav";
+@import "header";
+@import "content";
+@import "footer";
+@import "menu";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/backcolor.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 120%;
+    
+}
+
+.container {
+    min-height: 100vh;
+    margin: auto;
+    max-width: 1600px;
+    overflow: hidden;
+}

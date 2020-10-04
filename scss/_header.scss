@@ -1,0 +1,50 @@
+.header {
+    padding-top: 80px;
+}
+
+.velo {
+    z-index: 1;
+    display: flex;
+    margin-left: 35%;
+    margin-top: -18%;
+}
+
+.text_bold {
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 100px;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.text_bold_bottom {
+    font-size: 30px;
+}
+
+.button {
+    margin-top: 10%;
+    
+    display: inline-block;
+    background-color: #24C5C4;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    letter-spacing: 0.125em;
+    font-style: normal;
+    font-weight: 500;
+
+
+    &:hover {
+        transform: translateY(-2px);
+        background-color: #29cece;
+        
+    }
+}
+
+.but {
+    display: block;
+}
